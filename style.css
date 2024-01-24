@@ -1,0 +1,32 @@
+body{ font-family: "Open Sans", sans-serif;
+
+} 
+
+     .container{
+        align-items: center;
+    }
+    
+    #temp{
+        height: 40px;
+        width: 75px;
+        border: none;
+    }
+    
+    #feelslike{
+        height: 40px;
+        width: 75px;
+        border: none;
+    }
+    
+    .section1{
+        display: flex;
+    }
+    
+    .group2{
+        margin: 200px;
+    }
+    
+    .section2{
+        display: grid;
+        grid-template-columns:repeat(4, 1fr);
+    }
