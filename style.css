@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@200&display=swap');
+
+/* Gradient Animation based on codepen by Manuel Pinto */
+body {
+	background: linear-gradient(-45deg, #f565aa, #c55af0, #30b4e4, #3ce7bf);
+	background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+	height: 100vh;
+
+    font-family: 'Alumni Sans', sans-serif;
+    color: white;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+form {
+    align-self: center;
+}
+#searchInput {
+    /* font-family: 'Alumni Sans', sans-serif; */
+}
+#searchButton {
+    font-family: 'Alumni Sans', sans-serif;
+    font-weight: bolder;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    background-color: transparent;
+    border: solid white;
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        background-size: 400% 400%;
+
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        /* justify-content: center; */
+    }
+    .title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    form {
+        padding-top: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    #searchInput {
+        width: 200px;
+        margin-right: 5px
+    }
+    /* #searchButton {
+        width: 100%
+    } */ */
+}
+
+
+#titleName {
+    font-size: 40px;
+}
+
+.output {
+    margin: 45px auto;
+    height: 350px;
+    width: 350px;
+    border: solid white 1px;
+    border-radius: 50%;
+    display: none;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+#cityStats{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+#weatherStats{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+#cityName {
+    font-size: 45px;
+    font-weight:bold;
+    content: center;
+}
+#cityRegion {
+    color: aliceblue;
+    font-size: 20px;
+}
+
+#currentWeather {
+    color: cornflowerblue;
+    
+    font-size: 35px;
+    font-weight: bold;
+    -webkit-text-stroke: white .1px;
+}
+#weatherIcon {
+
+}
+#currentTemp, #feelsTemp {
+    font-size: 26px;
+}
