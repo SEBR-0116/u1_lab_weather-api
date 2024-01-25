@@ -1,0 +1,112 @@
+* {
+
+}
+
+header {
+    font-size: 30px;
+    text-align: center;
+}
+
+.container {
+    border: 2px solid black;
+    padding: 20px;
+    font-family: Varela Round;
+    margin: 0px;
+    width: 80%;
+    background-color: rgb(107, 107, 227);
+    color: bisque;
+}
+
+#cityName {
+    color: 
+}
+
+body {
+    text-align: center;
+    font-family: 'Varela Round';
+}
+
+#submitButton {
+    background-color: #1529c1;
+    color: white;
+    padding: 10px 10px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Sevillana';
+}
+
+#submitButton:hover {
+    background-color: #aa3aa5;
+}
+
+#submitButton:active {
+    background-color:rgb(193, 111, 189)
+}
+
+#inputBar {
+    padding: 10px;
+    font-size: 17px;
+    align-self: start;
+}
+
+#icon {
+    /*font-size: 50px; */
+    max-width: 100%;
+    max-height: auto;
+    transform: scale(1.5);
+    box-shadow: 0 4px 8px #000;
+    transition: width 0.3s ease;
+}
+
+#icon:hover {
+    transform: scale(3);
+}
+
+.image-container {
+    position: relative;
+    width: 100px;
+    height: auto;
+}
+
+
+#cityName {
+    text-align: left;
+    font-weight: bolder;
+    font-size: 45px;
+    text-shadow: 4px 4px #070e4284;
+    transform: perspective(100px);
+}
+
+#region {
+    text-align: left;
+    font-size: 35px;
+    text-shadow: 4px 4px #070e4284;
+    margin-top: 10px;
+}
+
+#localTime {
+    text-align: end;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+#temp {
+    text-shadow: 4px 4px #070e4284;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+#feelsLike {
+    text-shadow: 4px 4px #070e4284;
+    text-align: justify;
+    transform: perspective(100px);
+    margin-top: 20px;
+}
+
+#timeZone {
+    text-align: end;
+    font-size: 24px;
+    margin-top: 10px;
+}
