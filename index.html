@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script defer src="script.js"></script>
+    <title>Weather App</title>
+     
+</head>
+<body>
+
+    <input id="textInput" type="text" placeholder="enter city here" />
+    <button id="submitButton"> Click Here </button>
+       
+        <select id="searchType">
+            <option value="current">Current</option>
+            <option value="forecast">Forecast</option>
+            <option value="future">Future</option>
+            <option value="marine">Marine</option>
+            <option value="astronomy">Astronomy</option>
+            <option value="timezone">Time Zone</option>
+            <option value="sports">Sports</option>
+        </select>
+    
+
+<div id="futureDateInput" style="display: none;">
+    <label for="specificDate">Enter Date:</label>
+    <input type="date" id="specificDate" placeholder="YYYY-MM-DD">
+</div>
+
+<h1 id="cityName"> </h1>
+<h2 id="country"> </h2>
+<h2 id="temp"> </h2>
+<h2 id="condition"> </h2>
+
+<img id="weatherIcon" src="https://cdn.jim-nielsen.com/ios/512/weather-2021-12-07.png" alt="Weather Icon">
+<h2 id="wind_mph"> </h2>
+<h2 id="precip_mm"> </h2>
+
+
+<h2 id="sunrise"> </h2>
+<h2 id="sunset"> </h2>
+
+
+<h2 id="tz_id"> </h2>
+<h2 id="localtime"> </h2>
+<h2 id="localtime_epoch"> </h2>
+
+</body>
+</html>

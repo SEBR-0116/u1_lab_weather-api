@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #f0f0f0;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+}
+
+select {
+    padding: 10px;
+    margin: 10px;
+    width: 220px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+h1, h2 {
+    margin: 10px 0;
+}
+
+#weatherIcon {
+    width: 50px;
+    height: 50px;
+}
+
+
+#cityName, #country, #temp, #wind_mph, #precip_mm {
+    margin: 5px 0;
+    color: #333;
+}
