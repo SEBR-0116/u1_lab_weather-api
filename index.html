@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script defer src="script.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <title>Weather API</title>
+</head>
+<body>
+    <div id="weatherAppContain">
+        <section id="userInput">
+            <h1 id="title">Weather App</h1>
+            <p>Enter a city in the field below to get started</p>
+            <input id="textInput" type="text" placeholder="enter city here" />
+            <button id="submitButton"> Click &#8594 </button>
+        </section>
+        <section id="weatherCard">
+            <h2 id="cityName"></h2>
+            <div id="cityData">
+                <div id="weatherIconContain"><img src="" id="weatherIcon"/></div>
+                <!-- <div id="tempInF"></div>
+                <div id="tempInC"></div> -->
+                <ul>
+                    <li class="label">Temperature:</li>
+                    <li><div id="tempInF"></div></li>
+                    <li><div id="tempInC"></div></li>
+                </ul>
+                <div class="label">Humidity</div>
+                <div id="humidity"></div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
