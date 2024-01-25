@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet"/>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script defer src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+
+    <title>Weather API</title>
+</head>
+<body>
+    <div class="container">
+     <div class="section1">   
+      <div class="group1">  
+        <h2>Temperature</h2>
+        <h2 id="temp"></h2> 
+        <h2>Feels like</h2>
+        <h2 id="feelslike"> </h2> 
+      </div>
+
+      <div class="group2">
+        <h3 id="icon"></h3>
+        <h1>WEATHER APP</h1>
+        <input id="textInput" type="text" placeholder="enter city here">
+        <button id="submitButton"> Click Here </button>
+      </div>
+     </div>
+
+
+        <h1 id="cityandcountry"> </h1>
+       
+      <div class="section2">
+        <div id="group3">
+            <span>Cloud/UV</span>
+            <span id="cloud"></span>
+        </div>
+        <div id="group4">
+            <span>Wind</span>
+            <span id="wind"></span>
+        </div>
+        <div id="group5">
+            <span>Precipitation</span>
+            <span id="precip"></span>
+        </div>
+        <div id="group6">
+            <span>Humidity</span>
+            <span id="humid"></span>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+    
+</body>
+</html>

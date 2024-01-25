@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    background-color: #dceafc;
+}
+
+.container{
+    align-items: center;
+}
+
+#temp{
+    height: 40px;
+    width: 100px;
+    border: none;
+    font-size: 2rem;
+}
+
+#feelslike{
+    height: 40px;
+    width: 100px;
+    border: none;
+    font-size: 2rem;
+}
+
+.section1{
+    display: flex;
+}
+
+.group2{
+    margin: 210px;
+    border: none;
+}
+
+#textInput{
+    width: 250px;
+}
+
+.section2{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    font-size: 20px;
+}
